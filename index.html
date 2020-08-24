@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="style.css">
+		<title>lolAHKgen</title>
+	</head>
+	<body>
+		<h1>
+			lol<span>AHK</span>gen
+		</h1>
+		<alles>
+			<div id="genall" onclick="toggleall(this)">/all</div>
+			<div id="gen" class="resizing-input">
+				<input type="text" id="inputgen" placeholder="your text here">
+				<span  style="display:none"></span>
+			</div>
+		</alles>
+		<button id="genx" onclick="genfile()">
+			generate and download script
+		</button>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+	<script src="jqscript.js"></script>
+	<script src="node_modules\file-saver\dist\FileSaver.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,112 @@
+:root{
+	--black: #26213b;
+	--white: #f8f7f9;
+	--green: #24e063;
+	 --cyan: #1da1f2;
+	 --blue: #1e6ee6;
+   --purple: #9824e0;
+	 --pink: #ff66d8;
+	  --red: #db1f5b;
+   --orange: #f59d38;
+   --yellow: #f7ec59;
+}
+
+html{
+	--bg: var(--black);
+	--fg: var(--white);
+	--pc: var(--green);
+	--sc: var(--pink);
+	--tc: var(--cyan);
+}
+
+body{
+	font-family: 'Nunito';
+	margin: 0;
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	background: var(--bg);
+	color: var(--fg);
+}
+
+h1{
+	font-size: 5rem;
+	user-select: none;
+}
+
+h1>span{
+	color: var(--pc);
+}
+
+#gen{
+	height: 5rem;
+	display: inline-block;
+}
+
+#inputgen, #gen>span{
+	font-family: inherit;
+	font-size: 2rem;
+	padding: none;
+	text-align: center;
+	border-radius: 2rem;
+	border: none;
+	background: #ffffff10;
+	width: auto;
+	color: var(--fg);
+	padding: 0 1rem;
+	white-space: pre;
+}
+
+input::selection{
+	background: #ffffff10;
+	color: var(--tc);
+}
+
+
+#genall{
+	display: inline-block;
+	font-family: inherit;
+	font-size: 2rem;
+	padding: none;
+	text-align: center;
+	border-radius: 2rem;
+	border: none;
+	width: auto;
+	background: var(--pc);
+	color: var(--bg);
+	padding: 0 1rem;
+	transition: .25s ease-in-out;
+	white-space: pre;
+	margin-right: 1rem;
+	cursor: pointer;
+	user-select: none;
+}
+
+.tgall{
+	background: #ffffff10 !important;
+	color: var(--sc) !important;
+	transition: .25s ease-in-out;
+}
+
+alles{
+	height: 5rem;
+	margin-top: -20rem;
+}
+
+#genx{
+	display: inline-block;
+	font-family: inherit;
+	font-size: 2rem;
+	padding: none;
+	text-align: center;
+	border-radius: 2rem;
+	border: none;
+	width: 30rem;
+	background: var(--tc);
+	color: var(--bg);
+	padding: .25rem;
+	transition: .25s ease-in-out;
+	cursor: pointer;
+	user-select: none;
+	margin-top: -30rem;
+}

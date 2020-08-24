@@ -1,0 +1,28 @@
+{
+  "name": "ahkgen",
+  "version": "0.0.1",
+  "description": "ahk lol text script generator",
+  "main": "script.js",
+  "scripts": {
+    "test": "testgen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krozshardt/ahkgen.git"
+  },
+  "keywords": [
+    "ahk",
+    "gen",
+    "script",
+    "lol"
+  ],
+  "author": "krozshardt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krozshardt/ahkgen/issues"
+  },
+  "homepage": "https://github.com/krozshardt/ahkgen#readme",
+  "dependencies": {
+    "file-saver": "^2.0.2"
+  }
+}
